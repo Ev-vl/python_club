@@ -3,8 +3,7 @@ def input_name():
 
 def how_are_you(name):
     print(f"Are you OK, {name}?")
-    a = input()
-    if a in ('Yes', 'yes'):
+    if input() in ('Yes', 'yes'):
         print("That's cool!")
     else:
         print("Don't worry :)")
